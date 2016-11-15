@@ -2,14 +2,14 @@ from distutils.core import setup
 from setuptools import find_packages
 
 setup(
-    name='ConstantContact',
-    version='0.1.2',
-    author='Justin Ratner',
-    author_email='justin@rafflecopter.com',
+    name='ConstantContactLib',
+    version='0.1.1',
+    author='Dmitry Veretelnikov',
+    author_email='dmitryveretelnikov@outlook.com',
     packages=find_packages(),
-    url='https://github.com/leroix/ConstantContact',
+    url='https://github.com/dmitry1119/ConstantContactLib',
     license='LICENSE.txt',
-    description='Constant Contact api clent',
+    description='Constant Contact API Client',
     long_description=open('README.txt').read(),
     install_requires=[
         "oauth2 >= 1.5.211",
